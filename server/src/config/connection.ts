@@ -1,11 +1,9 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 
-dotenv.config(); // Load environment variables
+dotenv.config();
 
-const MONGODB_URI =
-  process.env.MONGODB_URI ||
-  "mongodb+srv://rzafar:Luigi3301@cluster0.xq8rh.mongodb.net/DevDeploy-DB?retryWrites=true&w=majority";
+const MONGODB_URI = process.env.MONGODB_URI;
 
 if (!MONGODB_URI) {
   console.error(
@@ -15,13 +13,8 @@ if (!MONGODB_URI) {
 }
 
 mongoose
-  .connect(MONGODB_URI, {
-    tls: true, // Enforce secure TLS connection
-    tlsAllowInvalidCertificates: false, // Ensures valid TLS handshake
-  })
-  .then(() => {
-    console.log("✅ Successfully connected to MongoDB.");
-  })
+  .connect(MONGODB_URI) // No extra options needed in Mongoose 7+
+  .then(() => console.log("✅ Successfully connected to MongoDB."))
   .catch((err) => {
     console.error("❌ MongoDB connection error:", err);
     process.exit(1);
