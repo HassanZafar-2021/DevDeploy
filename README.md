@@ -2,6 +2,8 @@
 
 ## Deployed
 
+https://devdeploy-r7k9.onrender.com
+
 ## Description
 
 This project implements a CI/CD pipeline with GitHub Actions to automate testing and deployment. It ensures code quality by running Cypress tests on pull requests to develop and deploying to Render when merged into main. This streamlines development, reduces errors, and enhances efficiency. Through this, I gained hands-on experience with CI/CD, automated testing, and deployment workflows.
@@ -33,7 +35,7 @@ This project implements a CI/CD pipeline with GitHub Actions to automate testing
 
 ## Usage
 
-assets/image.png
+![alt text](./assets/image.png)
 
 Cypress Tests and Deployment to Render.
 
