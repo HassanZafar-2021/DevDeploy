@@ -39,6 +39,7 @@ This project implements a CI/CD pipeline with GitHub Actions to automate testing
 2. Take quiz as often you want to test your knowledge.
 3. Review GitHub Actions to see tests and workflows.
 
+
 ![alt text](./assets/image.png)
 
 ## Credits
