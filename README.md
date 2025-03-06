@@ -28,16 +28,18 @@ This project implements a CI/CD pipeline with GitHub Actions to automate testing
 3. Create a .env file and add necessary API keys, database URLs, and secrets.
 4. npm run dev
 5. Add secrets in GitHub Repository Settings (e.g., RENDER_DEPLOY_HOOK).
-   Ensure the develop and main branches are set up correctly.
-6. npx cypress open to test locally
-7. Push changes to develop and create a pull request to trigger CI/CD.
-8. Merge to main to deploy automatically to Render.
+6. Ensure the develop and main branches are set up correctly.
+7. npx cypress open to test locally
+8. Push changes to develop and create a pull request to trigger CI/CD.
+9. Merge to main to deploy automatically to Render.
 
 ## Usage
 
-![alt text](./assets/image.png)
+1. Cypress Tests and Deployment to Render.
+2. Take the Quiz as often as you like on the client side.
+3. Conduct and analyze GitHub Actions repeatedly.
 
-Cypress Tests and Deployment to Render.
+![alt text](./assets/image.png)
 
 ## Credits
 
