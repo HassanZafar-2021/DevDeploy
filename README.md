@@ -36,8 +36,9 @@ This project implements a CI/CD pipeline with GitHub Actions to automate testing
 ## Usage
 
 1. Cypress Tests and Deployment to Render.
-2. Take the Quiz as often as you like on the client side.
-3. Conduct and analyze GitHub Actions repeatedly.
+2. Take quiz as often you want to test your knowledge.
+3. Review GitHub Actions to see tests and workflows.
+
 
 ![alt text](./assets/image.png)
 
